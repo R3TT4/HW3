@@ -1,0 +1,123 @@
+/*
+    Name: Everett Johnson
+    Class: CPSC 332 
+    Assignment: Homework 3
+    Last Modified: 10/6/2022
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    background-color: lightgray;
+    flex: 0 1 100%;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    flex: 0 1 100%;
+    flex-direction: row-reverse;
+}
+
+.lower-container {
+    display: flex;
+    flex: 0 1 100%;
+}
+
+.left-container {
+    background-color: darkcyan;
+    flex: 0 1 20%;
+}
+
+.right-container {
+    background-color: lightblue;
+    flex: 0 1 80%;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 25%;
+    padding: 5px;
+    box-shadow: 0 0 5px 2px blue;
+}
+
+.profile-pic {
+    width: 300px;
+    border-radius: 50%;
+    border: solid black;
+    background-image: linear-gradient(darkcyan, yellow);
+}
+
+.nav-content {
+    font-size: large;
+    box-shadow: 0 0 5px 2px blue;
+    background-color: bisque;
+    margin: 40px;
+    padding: 5px;
+}
+
+.intro-content {
+    margin: 10px;
+}
+
+#intro-paragraph {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 10px;
+}
+
+.main-item {
+    margin: 10px;
+}
+
+.data-table {
+    border-collapse: collapse;
+}
+
+.data-table td {
+    border: 1px solid black;
+}
+
+.data-table th {
+    background-color: darkcyan;
+    border: 1px solid black;
+}
+
+
+.data-table tbody tr:nth-child(odd) {
+    background-color: wheat;
+}
+
+.list {
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    list-style: square;
+    list-style-position: outside;
+}
+
+.ordered-list {
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    list-style: upper-roman;
+    list-style-position: outside;
+}
+
+.list li {
+    background: wheat;
+    margin: 5px;
+}
+
+.ordered-list li {
+    background: wheat;
+    margin: 5px;
+}
+
+.link-img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px red;
+    margin: 10px;
+}
